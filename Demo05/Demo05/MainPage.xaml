@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo05.MainPage">
+
+    <StackLayout>
+        <Button Text="Mi Primer Botón" 
+                TextColor="White" 
+                BackgroundColor="Red"></Button>
+        <Label Text="Mi Primer label" 
+               BackgroundColor="Blue" 
+               TextColor="White"></Label>
+        <Entry Placeholder="Ingresa Nombre Entry"></Entry>
+        <Editor Placeholder="Ingresa Nombre Editor"
+                HeightRequest="100"></Editor>
+        <DatePicker MaximumDate="2023-04-28"
+                    MinimumDate="2023-04-10"></DatePicker>
+        <Image Source="descarga.jpg"></Image>
+        <Image Source="https://img.remediosdigitales.com/94c1d4/gato-siames-1/1366_2000.jpeg"></Image>
+    </StackLayout>
+
+</ContentPage>
